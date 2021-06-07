@@ -34,6 +34,7 @@ public class QuestManager : MonoBehaviour
 
     void EncountEnemy()
     {
+        stageUI.HideButtons();
         Instantiate(enemyPrefab);
     }
 }

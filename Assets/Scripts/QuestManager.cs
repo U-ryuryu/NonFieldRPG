@@ -23,6 +23,7 @@ public class QuestManager : MonoBehaviour
         if (encountTable.Length <= currentStage)
         {
             Debug.Log("クエストクリア");
+            // クエストクリアの処理
         }
         else if (encountTable[currentStage] == 0 )
         {

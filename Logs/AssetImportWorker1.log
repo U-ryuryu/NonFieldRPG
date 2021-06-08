@@ -1,0 +1,193 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/shimizuyuusaku/Unity/NonFieldRPG
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57140
+Successfully changed project path to: /Users/shimizuyuusaku/Unity/NonFieldRPG
+/Users/shimizuyuusaku/Unity/NonFieldRPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/shimizuyuusaku/Unity/NonFieldRPG/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-08 15:16:39.084 Unity[23436:686040] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-08 15:16:39.084 Unity[23436:686040] Metal devices available: 1
+2021-06-08 15:16:39.084 Unity[23436:686040] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-08 15:16:39.084 Unity[23436:686040] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002883 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.302 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/shimizuyuusaku/Unity/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.875171 ms (FindLiveObjects: 0.253856 ms CreateObjectMapping: 0.100214 ms MarkObjects: 2.370423 ms  DeleteObjects: 0.149160 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/images
+  artifactKey: Guid(de05586d37aee41d08c3cd863312bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images using Guid(de05586d37aee41d08c3cd863312bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363e812f78d28c8e03f35adf0666e746') in 0.005741 seconds
+  Import took 0.011211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.639522 seconds.
+  path: Assets/images/Background
+  artifactKey: Guid(c5ebd5cbf1880478597a0c5bb3a0a8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/Background using Guid(c5ebd5cbf1880478597a0c5bb3a0a8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da54fa8ea98a5156afaf3da5e99e9e50') in 0.003471 seconds
+  Import took 0.007167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.068032 seconds.
+  path: Assets/Images
+  artifactKey: Guid(de05586d37aee41d08c3cd863312bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(de05586d37aee41d08c3cd863312bb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d557b91400f22ce033818f6f55ee0bb') in 0.002426 seconds
+  Import took 0.006057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.994617 seconds.
+  path: Assets/Images/UI
+  artifactKey: Guid(f4b4091b3ddc94c6f926911b68d2ea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI using Guid(f4b4091b3ddc94c6f926911b68d2ea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90564d9ae0b912aed2ecb2c40365546b') in 0.003321 seconds
+  Import took 0.007149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.709358 seconds.
+  path: Assets/Images/Background/森背景.png
+  artifactKey: Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/森背景.png using Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4962a5c17b10496f2a8e4465574f51') in 0.913154 seconds
+  Import took 0.916299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.862812 seconds.
+  path: Assets/Images/Background/街背景.jpg
+  artifactKey: Guid(c3c79b203016e4f86b80a9a4cb0ef20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/街背景.jpg using Guid(c3c79b203016e4f86b80a9a4cb0ef20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2599fa179410504fa37bde8990d2470f') in 1.045689 seconds
+  Import took 1.049196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.885185 seconds.
+  path: Assets/Images/Background/TitleBG.jpg
+  artifactKey: Guid(c3c79b203016e4f86b80a9a4cb0ef20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/TitleBG.jpg using Guid(c3c79b203016e4f86b80a9a4cb0ef20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de4e3f5b5429018288c57847b2b2d40') in 0.025490 seconds
+  Import took 0.030325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.937819 seconds.
+  path: Assets/Images/Background/QuestBG.png
+  artifactKey: Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/QuestBG.png using Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd8f4ce5719f29b15bf2f929bab9995') in 0.017589 seconds
+  Import took 0.021494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.628619 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3441bb59e8ddc8a8e7bd09b95f658c') in 0.003765 seconds
+  Import took 0.007817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3397.704456 seconds.
+  path: Assets/Scenes/Quest.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Quest.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9920edfd1ce9a0f8adb8c1795d5a2ea3') in 0.003163 seconds
+  Import took 0.008817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Scenes/Quest.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Quest.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9920edfd1ce9a0f8adb8c1795d5a2ea3') in 0.005186 seconds
+  Import took 0.009831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.911307 seconds.
+  path: Assets/Images/Background/QuestBG.png
+  artifactKey: Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/QuestBG.png using Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5aee01c9754f05c81d91ca4cd53cc2') in 0.032314 seconds
+  Import took 0.038909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.765434 seconds.
+  path: Assets/Images/Background/QuestBG.png
+  artifactKey: Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/QuestBG.png using Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4230e5dcc038504b66d8b4df2e00a3') in 0.023995 seconds
+  Import took 0.030366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.718349 seconds.
+  path: Assets/Images/Background/QuestBG.png
+  artifactKey: Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Background/QuestBG.png using Guid(fa7e89f97e82941e6969062d92537955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee9227c831713fb83ee9d70a479c395') in 0.020204 seconds
+  Import took 0.027938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.107750 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810b6876546ab06ab79448e27d1d382e') in 0.002537 seconds
+  Import took 0.006412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(7b4a28ce8ce1f435ab46f86e0ab6a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810b6876546ab06ab79448e27d1d382e') in 0.002087 seconds
+  Import took 0.005981 seconds .
+

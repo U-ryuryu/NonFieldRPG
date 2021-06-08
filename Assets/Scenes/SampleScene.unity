@@ -155,7 +155,7 @@ MonoBehaviour:
   playerUI: {fileID: 769753664}
   enemyUI: {fileID: 243735341}
   player: {fileID: 731116691}
-  enemy: {fileID: 362048945}
+  enemy: {fileID: 0}
 --- !u!4 &140074633
 Transform:
   m_ObjectHideFlags: 0
@@ -286,52 +286,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &362048944
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 362048946}
-  - component: {fileID: 362048945}
-  m_Layer: 0
-  m_Name: EnemyManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &362048945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362048944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c386f607b2ab141d2a0b9155983c4cb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: "\u30C6\u30B9\u30C8"
-  hp: 10
-  at: 2
---- !u!4 &362048946
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362048944}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 960, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageUI: {fileID: 1704634018}
   enemyPrefab: {fileID: 1591389894690237377, guid: 2e6892c24cdd84c8787e58b2cd7963c0, type: 3}
+  battleManager: {fileID: 140074632}
 --- !u!4 &668791344
 Transform:
   m_ObjectHideFlags: 0

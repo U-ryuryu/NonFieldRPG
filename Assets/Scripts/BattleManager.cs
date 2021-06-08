@@ -10,14 +10,11 @@ public class BattleManager : MonoBehaviour
     public EnemyUIManager enemyUI;
     public PlayerManager player;
     public EnemyManager enemy;
-    void Start()
-    {
-        Setup();
-    }
 
     // 初期設定
-    void Setup()
+    public void Setup(EnemyManager enemyManager)
     {
+        enemy = enemyManager;
         enemyUI.SetupUI(enemy);
         playerUI.SetupUI(player);
     }

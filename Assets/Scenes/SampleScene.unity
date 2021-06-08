@@ -152,6 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69930c509ded34fd3b3b76a4c240a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerUI: {fileID: 769753664}
+  enemyUI: {fileID: 243735341}
   player: {fileID: 731116691}
   enemy: {fileID: 362048945}
 --- !u!4 &140074633
@@ -717,7 +719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 80
-  at: 12
+  at: 8
 --- !u!4 &731116692
 Transform:
   m_ObjectHideFlags: 0

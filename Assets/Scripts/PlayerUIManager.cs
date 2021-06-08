@@ -8,9 +8,9 @@ public class PlayerUIManager : MonoBehaviour
     public Text hpText;
     public Text atText;
 
-    public void UpdateUI()
+    public void UpdateUI(PlayerManager player)
     {
-        hpText.text = string.Format("HP：{0}", 80);
-        atText.text = string.Format("AT：{0}", 10);
+        hpText.text = string.Format("HP：{0}", player.hp);
+        atText.text = string.Format("AT：{0}", player.at);
     }
 }

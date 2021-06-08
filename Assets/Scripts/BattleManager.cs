@@ -25,11 +25,25 @@ public class BattleManager : MonoBehaviour
     {
         player.Attack(enemy);
         enemyUI.UpdateUI(enemy);
+        if (enemy.hp == 0)
+        {
+            Destroy(enemy.gameObject);
+            EndBattle();
+        }
+        else
+        {
+            EnemyTurn();
+        }
     }
 
-    void EnemyAttack()
+    void EnemyTurn()
     {
         enemy.Attack(player);
         playerUI.UpdateUI(player);
+    }
+
+    void EndBattle()
+    {
+        Debug.Log("EndBattle");
     }
 }

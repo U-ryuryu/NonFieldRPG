@@ -19,7 +19,11 @@ public class EnemyManager : MonoBehaviour
     public void Damage(int damage)
     {
         hp -= damage;
-        Debug.Log("enemyのHPは" + hp);
+        if (hp <= 0)
+        {
+            hp = 0;
+        }
+
     }
 
     // tapActionに関数を登録する関数を作成する
@@ -27,7 +31,7 @@ public class EnemyManager : MonoBehaviour
     {
         tapAction += action;
     }
-    
+
     public void OnTap()
     {
         Debug.Log("クリックされた");

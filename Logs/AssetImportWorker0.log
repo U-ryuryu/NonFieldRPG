@@ -180,3 +180,200 @@ Total: 2.272180 ms (FindLiveObjects: 0.300292 ms CreateObjectMapping: 0.104432 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 4679.259421 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(6c4ae5976fcd645b5b6d54f2ad348421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(6c4ae5976fcd645b5b6d54f2ad348421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a5033531a3de09a6fa97cdf3cecdf1') in 0.080834 seconds
+  Import took 0.113647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.194671 seconds.
+  path: Assets/Sounds/BGM
+  artifactKey: Guid(e5a02cfbc9e404373b7765e7ab974854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM using Guid(e5a02cfbc9e404373b7765e7ab974854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9170b5aa6cdca4a72fef9550450f38') in 0.004431 seconds
+  Import took 0.008693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.410026 seconds.
+  path: Assets/Sounds/SE
+  artifactKey: Guid(421fb68c8748f477984730bc55e9dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SE using Guid(421fb68c8748f477984730bc55e9dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b537963718e96f7c68cc610fe8b88a23') in 0.004863 seconds
+  Import took 0.010570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.388292 seconds.
+  path: Assets/Sounds/BGM/BattleBGM.ogg
+  artifactKey: Guid(25b47cb8b443b437eb0d2398e0fd2543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/BattleBGM.ogg using Guid(25b47cb8b443b437eb0d2398e0fd2543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b553160d7779d13fc21a87a8b397e') in 1.000676 seconds
+  Import took 1.004970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.732894 seconds.
+  path: Assets/Sounds/BGM/QuestBGM.ogg
+  artifactKey: Guid(ff7f52645a0cf488a91b8bc450c648e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/QuestBGM.ogg using Guid(ff7f52645a0cf488a91b8bc450c648e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb824b7adf285529e8e4c30ea40ba72') in 0.021379 seconds
+  Import took 0.025902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022457 seconds.
+  path: Assets/Sounds/BGM/QuestBGM.ogg
+  artifactKey: Guid(ff7f52645a0cf488a91b8bc450c648e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/QuestBGM.ogg using Guid(ff7f52645a0cf488a91b8bc450c648e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb824b7adf285529e8e4c30ea40ba72') in 0.009621 seconds
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.512279 seconds.
+  path: Assets/Sounds/BGM/TitleBGM.ogg
+  artifactKey: Guid(56d9429532ca34dbc9ffced7bfe9749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/TitleBGM.ogg using Guid(56d9429532ca34dbc9ffced7bfe9749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e719861356f5518b933867174089896') in 0.013508 seconds
+  Import took 0.018248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020237 seconds.
+  path: Assets/Sounds/BGM/TitleBGM.ogg
+  artifactKey: Guid(56d9429532ca34dbc9ffced7bfe9749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/TitleBGM.ogg using Guid(56d9429532ca34dbc9ffced7bfe9749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e719861356f5518b933867174089896') in 0.010740 seconds
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.825206 seconds.
+  path: Assets/Sounds/SE/AttackSE.mp3
+  artifactKey: Guid(ebd9de49907004d0a90b8b4681dea394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SE/AttackSE.mp3 using Guid(ebd9de49907004d0a90b8b4681dea394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b84a0a1c6dfa329945be8ab2622c216') in 1.186444 seconds
+  Import took 1.191279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.195794 seconds.
+  path: Assets/Sounds/SE/ButtonSE.mp3
+  artifactKey: Guid(0b3bbaa3c8c414566aa8996e3286428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SE/ButtonSE.mp3 using Guid(0b3bbaa3c8c414566aa8996e3286428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc33fa512dd72a2e32fcbb0e2e9f1ae') in 0.019659 seconds
+  Import took 0.025759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Sounds/SE/GameClearSE.ogg
+  artifactKey: Guid(3d1f66c9a9d4e473b8aa81f8d93e0f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SE/GameClearSE.ogg using Guid(3d1f66c9a9d4e473b8aa81f8d93e0f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76771774a0e727b2a4e80ea289df05aa') in 0.017104 seconds
+  Import took 0.022025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001620 seconds.
+  path: Assets/Sounds/SE/ButtonSE.mp3
+  artifactKey: Guid(0b3bbaa3c8c414566aa8996e3286428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/SE/ButtonSE.mp3 using Guid(0b3bbaa3c8c414566aa8996e3286428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc33fa512dd72a2e32fcbb0e2e9f1ae') in 0.010187 seconds
+  Import took 0.014834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.330243 seconds.
+  path: Assets/Sounds/BGM/TownBGM.ogg
+  artifactKey: Guid(00d726e05b4804be8ba0e764046df40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/TownBGM.ogg using Guid(00d726e05b4804be8ba0e764046df40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b70e6f7fd10b21f878c4dbd296f013') in 0.020691 seconds
+  Import took 0.028078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001840 seconds.
+  path: Assets/Sounds/BGM/TownBGM.ogg
+  artifactKey: Guid(00d726e05b4804be8ba0e764046df40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BGM/TownBGM.ogg using Guid(00d726e05b4804be8ba0e764046df40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b70e6f7fd10b21f878c4dbd296f013') in 0.009878 seconds
+  Import took 0.014350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 169.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 2.293480 ms (FindLiveObjects: 0.221573 ms CreateObjectMapping: 0.066257 ms MarkObjects: 1.881301 ms  DeleteObjects: 0.123455 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.1 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.134095 ms (FindLiveObjects: 0.224330 ms CreateObjectMapping: 0.055016 ms MarkObjects: 1.738492 ms  DeleteObjects: 0.115532 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 2.419938 ms (FindLiveObjects: 0.213228 ms CreateObjectMapping: 0.070416 ms MarkObjects: 2.019697 ms  DeleteObjects: 0.115527 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 252.573806 seconds.
+  path: Assets/Scenes/Quest.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Quest.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3493118f28aa14246e6318129f2e7105') in 0.011057 seconds
+  Import took 0.014803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002155 seconds.
+  path: Assets/Scenes/Quest.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Quest.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3493118f28aa14246e6318129f2e7105') in 0.001890 seconds
+  Import took 0.005655 seconds .
+

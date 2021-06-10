@@ -24,6 +24,11 @@ public class SoundManager : MonoBehaviour
     public AudioSource audioSourceSE;
     public AudioClip[] audioClipsSE;
 
+    public void StopBGM()
+    {
+        audioSourceBGM.Stop();
+    }
+
     public void PlayBGM(string sceneName)
     {
         audioSourceBGM.Stop();

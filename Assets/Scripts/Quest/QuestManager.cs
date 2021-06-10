@@ -56,6 +56,7 @@ public class QuestManager : MonoBehaviour
 
     void QuestClear()
     {
+        SoundManager.instance.StopBGM();
         SoundManager.instance.PlaySE(2);
         stageUI.ShowClearText();
         // sceneTransitionManager.LoadTo("Town");

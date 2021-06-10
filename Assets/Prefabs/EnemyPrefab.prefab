@@ -155,3 +155,4 @@ MonoBehaviour:
   name: "\u306D\u3053"
   hp: 10
   at: 2
+  hitEffect: {fileID: 8715745669423354440, guid: d2375c47a81b748e696428eb62aa96e0, type: 3}

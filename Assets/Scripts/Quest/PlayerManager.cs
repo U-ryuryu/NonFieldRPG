@@ -8,17 +8,19 @@ public class PlayerManager : MonoBehaviour
     public int at;
 
     // 攻撃する
-    public void Attack(EnemyManager enemy)
+    public int Attack(EnemyManager enemy)
     {
-        enemy.Damage(at);
+        int damege = enemy.Damage(at);
+        return damege;
     }
     // ダメージを受ける
-    public void Damage(int damage)
+    public int Damage(int damage)
     {
         hp -= damage;
         if (hp <= 0)
         {
             hp = 0;
         }
+        return damage;
     }
 }

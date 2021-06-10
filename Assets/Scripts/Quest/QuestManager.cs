@@ -19,15 +19,17 @@ public class QuestManager : MonoBehaviour
     {
         stageUI.UpdateUI(currentStage);
     }
-// Nextボタンが押されたら
-    public void OnNextButton()
+
+    IEnumerator Searching()
     {
         // 背景を大きく
         questBG.transform.DOScale(new Vector3(1.5f, 1.5f, 1.5f), 2f).OnComplete(() => questBG.transform.localScale = new Vector3(1, 1, 1));
         // フェードアウト
         SpriteRenderer questBGSpriteRenderer = questBG.GetComponent<SpriteRenderer>();
         questBGSpriteRenderer.DOFade(0, 2f).OnComplete(() => questBGSpriteRenderer.DOFade(1, 0));
-        SoundManager.instance.PlaySE(0);
+        
+        yield return new WaitForSeconds(2f);
+
         currentStage++;
         // 進行度をUIに反映
         stageUI.UpdateUI(currentStage);
@@ -41,6 +43,17 @@ public class QuestManager : MonoBehaviour
         {
             EncountEnemy();
         }
+        else
+        {
+            stageUI.ShowButtons();
+        }
+    }
+// Nextボタンが押されたら
+    public void OnNextButton()
+    {
+        SoundManager.instance.PlaySE(0);
+        stageUI.HideButtons();
+        StartCoroutine(Searching());
     }
 
     public void OnToTownButton()

@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource audioSourceBGM;
     public AudioClip[] audioClipsBGM;
     public AudioSource audioSourceSE;
-    public AudioClip audioClip;
+    public AudioClip[] audioClipsSE;
 
     public void PlayBGM(string sceneName)
     {
@@ -46,8 +46,8 @@ public class SoundManager : MonoBehaviour
         audioSourceBGM.Play();
     }
 
-    public void PlaySE()
+    public void PlaySE(int index)
     {
-        audioSourceSE.PlayOneShot(audioClip);
+        audioSourceSE.PlayOneShot(audioClipsSE[index]);
     }
 }

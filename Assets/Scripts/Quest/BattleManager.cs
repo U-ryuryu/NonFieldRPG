@@ -34,6 +34,7 @@ public class BattleManager : MonoBehaviour
     void PlayerAttack()
     {
         StopAllCoroutines();
+        DialogTextManager.instance.SetScenarios(new string[] {"playerの攻撃"});
         SoundManager.instance.PlaySE(1);
         player.Attack(enemy);
         enemyUI.UpdateUI(enemy);
@@ -54,6 +55,7 @@ public class BattleManager : MonoBehaviour
         playerDamagePanel.DOShakePosition(0.3f, 0.5f ,20, 0, false, true);
         enemy.Attack(player);
         playerUI.UpdateUI(player);
+        DialogTextManager.instance.SetScenarios(new string[] {"モンスターの攻撃"});
     }
 
     IEnumerator EndBattle()
@@ -62,6 +64,7 @@ public class BattleManager : MonoBehaviour
         enemyUI.gameObject.SetActive(false);
         Destroy(enemy.gameObject);
         SoundManager.instance.PlayBGM("Quest");
+        DialogTextManager.instance.SetScenarios(new string[] {"モンスターを倒した！"});
         questManager.EndBattle();
     }
 }

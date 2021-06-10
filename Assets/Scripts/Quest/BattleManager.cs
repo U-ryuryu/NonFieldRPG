@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 // PlayerとEnemyの対戦の管理
 public class BattleManager : MonoBehaviour

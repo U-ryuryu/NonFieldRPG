@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using DG.Tweening;
 
 // 敵を管理する(ステータス/クリック検出)
 public class EnemyManager : MonoBehaviour
@@ -22,6 +23,10 @@ public class EnemyManager : MonoBehaviour
         if (hp <= 0)
         {
             hp = 0;
+        }
+        else
+        {
+        transform.DOShakePosition(0.3f, 0.5f, 20, 0, false, true);
         }
 
     }

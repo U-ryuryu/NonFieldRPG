@@ -7,6 +7,7 @@ using DG.Tweening;
 // PlayerとEnemyの対戦の管理
 public class BattleManager : MonoBehaviour
 {
+    public Transform playerDamagePanel;
     public QuestManager questManager;
     public PlayerUIManager playerUI;
     public EnemyUIManager enemyUI;
@@ -52,6 +53,7 @@ public class BattleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         SoundManager.instance.PlaySE(1);
+        playerDamagePanel.DOShakePosition(0.3f, 0.5f ,20, 0, false, true);
         enemy.Attack(player);
         playerUI.UpdateUI(player);
     }

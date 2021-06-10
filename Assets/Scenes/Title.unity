@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &218497833 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7056645158694112016, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+  m_PrefabInstance: {fileID: 7056645159006753069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &244607618
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +900,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7056645158694112016, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 56d9429532ca34dbc9ffced7bfe9749a, type: 3}
     - target: {fileID: 7056645158694112017, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
       propertyPath: m_Name
       value: SoundManager
@@ -943,5 +952,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioSourceBGM
+      value: 
+      objectReference: {fileID: 218497833}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioClipsBGM.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioClipsBGM.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 56d9429532ca34dbc9ffced7bfe9749a, type: 3}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioClipsBGM.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 00d726e05b4804be8ba0e764046df40d, type: 3}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioClipsBGM.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: ff7f52645a0cf488a91b8bc450c648e9, type: 3}
+    - target: {fileID: 7056645158694112109, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}
+      propertyPath: audioClipsBGM.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 25b47cb8b443b437eb0d2398e0fd2543, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aecc1c43d2934d8897dafc5585be875, type: 3}

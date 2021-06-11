@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 // PlayerとEnemyの対戦の管理
 public class BattleManager : MonoBehaviour
 {
+    public SceneTransitionManager sceneTransitionManager;
+    public Transform playerDamagePanel;
     public QuestManager questManager;
     public PlayerUIManager playerUI;
     public EnemyUIManager enemyUI;
@@ -15,10 +18,13 @@ public class BattleManager : MonoBehaviour
     private void Start()
     {
         enemyUI.gameObject.SetActive(false);
+        playerUI.SetupUI(player);
     }
+
     // 初期設定
     public void Setup(EnemyManager enemyManager)
     {
+        SoundManager.instance.PlayBGM("Battle");
         enemyUI.gameObject.SetActive(true);
         enemy = enemyManager;
         enemyUI.SetupUI(enemy);
@@ -29,28 +35,45 @@ public class BattleManager : MonoBehaviour
 
     void PlayerAttack()
     {
-        player.Attack(enemy);
+        StopAllCoroutines();
+        SoundManager.instance.PlaySE(1);
+        int damege = player.Attack(enemy);
         enemyUI.UpdateUI(enemy);
+        DialogTextManager.instance.SetScenarios(new string[] {"プレイヤーの攻撃\nモンスターに"+damege+"ダメージを与えた。"});
+
         if (enemy.hp == 0)
         {
-            enemyUI.gameObject.SetActive(false);
-            Destroy(enemy.gameObject);
-            EndBattle();
+            StartCoroutine(EndBattle());
         }
         else
         {
-            EnemyTurn();
+            StartCoroutine(EnemyTurn());
         }
     }
 
-    void EnemyTurn()
+    IEnumerator EnemyTurn()
     {
-        enemy.Attack(player);
+        yield return new WaitForSeconds(2f);
+        SoundManager.instance.PlaySE(1);
+        playerDamagePanel.DOShakePosition(0.3f, 0.5f ,20, 0, false, true);
+        int damage = enemy.Attack(player);
         playerUI.UpdateUI(player);
+        DialogTextManager.instance.SetScenarios(new string[] {"モンスターの攻撃\nプレイヤーは"+damage+"ダメージを受けた。"});
+        yield return new WaitForSeconds(1f);
+
+        if (player.hp == 0)
+        {
+            questManager.PlayerDeath();
+        }
     }
 
-    void EndBattle()
+    IEnumerator EndBattle()
     {
+        yield return new WaitForSeconds(2f);
+        enemyUI.gameObject.SetActive(false);
+        Destroy(enemy.gameObject);
+        SoundManager.instance.PlayBGM("Quest");
+        DialogTextManager.instance.SetScenarios(new string[] {"モンスターは逃げていった。"});
         questManager.EndBattle();
     }
 }

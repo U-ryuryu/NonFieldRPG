@@ -7,6 +7,7 @@ using DG.Tweening;
 // PlayerとEnemyの対戦の管理
 public class BattleManager : MonoBehaviour
 {
+    public SceneTransitionManager sceneTransitionManager;
     public Transform playerDamagePanel;
     public QuestManager questManager;
     public PlayerUIManager playerUI;
@@ -17,6 +18,7 @@ public class BattleManager : MonoBehaviour
     private void Start()
     {
         enemyUI.gameObject.SetActive(false);
+        playerUI.SetupUI(player);
     }
 
     // 初期設定
@@ -57,6 +59,12 @@ public class BattleManager : MonoBehaviour
         int damage = enemy.Attack(player);
         playerUI.UpdateUI(player);
         DialogTextManager.instance.SetScenarios(new string[] {"モンスターの攻撃\nプレイヤーは"+damage+"ダメージを受けた。"});
+        yield return new WaitForSeconds(1f);
+
+        if (player.hp == 0)
+        {
+            questManager.PlayerDeath();
+        }
     }
 
     IEnumerator EndBattle()

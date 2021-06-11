@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69930c509ded34fd3b3b76a4c240a7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneTransitionManager: {fileID: 0}
   playerDamagePanel: {fileID: 519420032}
   questManager: {fileID: 668791343}
   playerUI: {fileID: 769753664}
@@ -1249,8 +1250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff2e9822695e54f0f9e5cf2c544875b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
-  at: 10
+  hp: 80
+  at: 8
 --- !u!4 &731116692
 Transform:
   m_ObjectHideFlags: 0
@@ -1831,7 +1832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "HP\uFF1A80"
+  m_Text: "HP\uFF1A100"
 --- !u!222 &1136657702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1989,7 +1990,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "AT\uFF1A8"
+  m_Text: "AT\uFF1A10"
 --- !u!222 &1522626165
 CanvasRenderer:
   m_ObjectHideFlags: 0
